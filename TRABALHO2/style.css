@@ -1,0 +1,87 @@
+
+body {
+    background-color: #1b1b1b;
+    color: #e4e4e4;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#topo {
+    background-color: #ff7300;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+h2, h3 {
+    color: #ff7300;
+    text-align: center;
+}
+
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.card {
+    background-color: #2a2a2a;
+
+    /* Box Model */
+    margin: 30px;
+    padding: 25px;
+
+    /* Bordas */
+    border: 3px solid #ff7300;
+    border-radius: 12px;
+
+    box-shadow: 5px 5px 15px black;
+}
+
+.destaque {
+    border-left: 10px solid yellow;
+}
+
+.banner {
+    text-align: center;
+    margin-top: 30px;
+}
+
+img {
+    border: 4px solid white;
+    border-radius: 10px;
+}
+
+.lista {
+    list-style-type: square;
+    padding-left: 40px;
+}
+
+.lista li {
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+.links {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+a {
+    color: #00bfff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
